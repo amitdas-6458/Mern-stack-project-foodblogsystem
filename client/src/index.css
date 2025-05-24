@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background: #eeeeee;
+}
+.imgSection{
+  height: 65vh;
+  width:75%;
+}
+
+.editorContainer {
+          height: 300px;
+          overflow: scroll;
+          background-color: #fff;
+          border: 1px solid #fff;
+}
+          .editor {
+            height: 100%;
+            border: none;
+          }
+        
